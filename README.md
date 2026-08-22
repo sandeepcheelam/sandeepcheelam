@@ -9,5 +9,6 @@
 # ninth comment 
 # Checking PR 
 # check branch merge
+# test fast-forward merge
 
 
