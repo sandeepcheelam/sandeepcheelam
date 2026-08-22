@@ -10,5 +10,5 @@
 # Checking PR 
 # check branch merge
 # test fast-forward merge
-# test fast-forward merge 2
+# test fast-forward merge 1
 
