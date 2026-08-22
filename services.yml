@@ -1,0 +1,19 @@
+# Ansible Variables
+
+-
+  name: Add DNS server to resolve.conf
+  hosts: localhost
+  vars:
+    dns_server: 0.0.0.0
+
+  tasks:
+    - inlinefile:
+         path: /etc/resolv.conf
+         line: 'nameserver {{ dns_server }}'
+
+
+# String variables
+# Number variables
+# Boolean Variables
+
+# 
